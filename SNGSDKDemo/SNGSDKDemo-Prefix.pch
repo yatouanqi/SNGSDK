@@ -1,0 +1,36 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "SNGSDK.h"
+    #import "SNGWeiboSDK.h"
+    #import "SNGAppDelegate.h"
+
+///*贪吃蛇*/
+    #define kAppKey         @"3470157549"//com.sina.sng
+    #define kRedirectURI    @"https://api.weibo.com/oauth2/default.html"
+    #define kRankKey 5555
+    #define kGroup 1
+
+#endif
+
+#define SharedAppDelegate ((SNGAppDelegate*)[[UIApplication sharedApplication] delegate])
+
+#define ALog(format, ...) NSLog((@"%s [L%d] " format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#ifdef DEBUG
+#define TTLog(format, ...) ALog(format, ##__VA_ARGS__)
+#else
+#define TTLog(...)
+#endif
