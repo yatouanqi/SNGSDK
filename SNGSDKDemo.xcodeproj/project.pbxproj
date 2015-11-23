@@ -23,7 +23,6 @@
 		1F1E9AD7183A0CFE00D237DC /* SNGFunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E9AD5183A0CFE00D237DC /* SNGFunctionListViewController.m */; };
 		1F1E9AD8183A0CFE00D237DC /* SNGFunctionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1E9AD6183A0CFE00D237DC /* SNGFunctionListViewController.xib */; };
 		1F2C56C7184EBFDF00A270EA /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F2C56C6184EBFDF00A270EA /* WeiboSDK.bundle */; };
-		1F45EDEF18483F7B006CF19B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F45EDEE18483F7B006CF19B /* libz.dylib */; };
 		1F45EDF118483FDF006CF19B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F45EDF018483FDF006CF19B /* Security.framework */; };
 		1F45EDF318483FEB006CF19B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F45EDF218483FEB006CF19B /* SystemConfiguration.framework */; };
 		1F5D622D1857233200103981 /* SNGSDKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5D622C1857233200103981 /* SNGSDKTest.m */; };
@@ -35,6 +34,12 @@
 		7C8D2172195AC94A00D4DDB5 /* 9VI5Q1555O1Q0005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C8D2171195AC94A00D4DDB5 /* 9VI5Q1555O1Q0005.jpg */; };
 		7C8D536B1894A8C400E26C64 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D536A1894A8C400E26C64 /* ChineseToPinyin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7C8D536E1894F6C400E26C64 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8D536D1894F6C400E26C64 /* CoreData.framework */; };
+		7CAE02201C02FD8F00A1B25D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE021F1C02FD8F00A1B25D /* QuartzCore.framework */; };
+		7CAE02221C02FD9B00A1B25D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE02211C02FD9B00A1B25D /* ImageIO.framework */; };
+		7CAE02251C02FDAA00A1B25D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE02231C02FDAA00A1B25D /* CoreTelephony.framework */; };
+		7CAE02261C02FDAA00A1B25D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE02241C02FDAA00A1B25D /* CoreText.framework */; };
+		7CAE02281C02FDC500A1B25D /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE02271C02FDC500A1B25D /* libz.1.dylib */; };
+		7CAE022A1C02FDEB00A1B25D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAE02291C02FDEB00A1B25D /* libsqlite3.dylib */; };
 		7CDDF66E18E01100008ABCF8 /* 游戏背景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CDDF66D18E01100008ABCF8 /* 游戏背景图.jpg */; };
 		7CEC60B2189203F3008AB1C5 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC609F189203F3008AB1C5 /* MKAnnotationView+WebCache.m */; };
 		7CEC60B3189203F3008AB1C5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC60A1189203F3008AB1C5 /* SDImageCache.m */; };
@@ -102,6 +107,12 @@
 		7C8D53691894A8C400E26C64 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
 		7C8D536A1894A8C400E26C64 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
 		7C8D536D1894F6C400E26C64 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CAE021F1C02FD8F00A1B25D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7CAE02211C02FD9B00A1B25D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7CAE02231C02FDAA00A1B25D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7CAE02241C02FDAA00A1B25D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7CAE02271C02FDC500A1B25D /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		7CAE02291C02FDEB00A1B25D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		7CDDF66D18E01100008ABCF8 /* 游戏背景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "游戏背景图.jpg"; sourceTree = "<group>"; };
 		7CEC609E189203F3008AB1C5 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		7CEC609F189203F3008AB1C5 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
@@ -131,13 +142,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CAE022A1C02FDEB00A1B25D /* libsqlite3.dylib in Frameworks */,
+				7CAE02281C02FDC500A1B25D /* libz.1.dylib in Frameworks */,
+				1F1E9A8C183A074C00D237DC /* CoreGraphics.framework in Frameworks */,
+				7CAE02251C02FDAA00A1B25D /* CoreTelephony.framework in Frameworks */,
+				7CAE02261C02FDAA00A1B25D /* CoreText.framework in Frameworks */,
+				7CAE02221C02FD9B00A1B25D /* ImageIO.framework in Frameworks */,
+				7CAE02201C02FD8F00A1B25D /* QuartzCore.framework in Frameworks */,
 				7C7C5D3F1A10B0FD00CEA8AA /* libSNGSDK.a in Frameworks */,
 				7CFB76BC18BC650500B848DE /* MediaPlayer.framework in Frameworks */,
 				7C8D536E1894F6C400E26C64 /* CoreData.framework in Frameworks */,
 				1F45EDF318483FEB006CF19B /* SystemConfiguration.framework in Frameworks */,
 				1F45EDF118483FDF006CF19B /* Security.framework in Frameworks */,
-				1F45EDEF18483F7B006CF19B /* libz.dylib in Frameworks */,
-				1F1E9A8C183A074C00D237DC /* CoreGraphics.framework in Frameworks */,
 				1F1E9A8E183A074C00D237DC /* UIKit.framework in Frameworks */,
 				1F1E9A8A183A074C00D237DC /* Foundation.framework in Frameworks */,
 			);
@@ -179,6 +195,12 @@
 		1F1E9A88183A074C00D237DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CAE02291C02FDEB00A1B25D /* libsqlite3.dylib */,
+				7CAE02271C02FDC500A1B25D /* libz.1.dylib */,
+				7CAE02231C02FDAA00A1B25D /* CoreTelephony.framework */,
+				7CAE02241C02FDAA00A1B25D /* CoreText.framework */,
+				7CAE02211C02FD9B00A1B25D /* ImageIO.framework */,
+				7CAE021F1C02FD8F00A1B25D /* QuartzCore.framework */,
 				7CFB76BB18BC650500B848DE /* MediaPlayer.framework */,
 				1F45EDEE18483F7B006CF19B /* libz.dylib */,
 				7C8D536D1894F6C400E26C64 /* CoreData.framework */,
